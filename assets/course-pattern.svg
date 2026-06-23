@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Abstract course thumbnail">
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="640" y2="360">
+      <stop stop-color="#14213D"/>
+      <stop offset=".5" stop-color="#1BC5CF"/>
+      <stop offset="1" stop-color="#FFB84D"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="34" fill="url(#a)"/>
+  <circle cx="92" cy="76" r="46" fill="#fff" opacity=".18"/>
+  <circle cx="540" cy="290" r="72" fill="#fff" opacity=".16"/>
+  <rect x="76" y="206" width="240" height="34" rx="17" fill="#fff" opacity=".8"/>
+  <rect x="76" y="260" width="380" height="22" rx="11" fill="#fff" opacity=".42"/>
+  <path d="M418 82h86a36 36 0 0 1 36 36v34a36 36 0 0 1-36 36h-86a36 36 0 0 1-36-36v-34a36 36 0 0 1 36-36Z" fill="#fff" opacity=".22"/>
+  <path d="m448 111 53 27-53 27v-54Z" fill="#fff"/>
+</svg>

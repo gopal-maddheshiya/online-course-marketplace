@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="CourseMarket logo">
+  <defs>
+    <linearGradient id="g" x1="10" y1="8" x2="118" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19C7D4"/>
+      <stop offset=".52" stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#FFB84D"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#g)"/>
+  <path d="M28 42.5 64 24l36 18.5L64 61 28 42.5Z" fill="#fff" opacity=".96"/>
+  <path d="M42 56v24c0 8.8 9.8 16 22 16s22-7.2 22-16V56L64 67.5 42 56Z" fill="#fff" opacity=".86"/>
+  <path d="M100 47v27" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+</svg>
