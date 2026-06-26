@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function Header({ user, onThemeToggle, cartCount, onLogout, onLoginClick }) {
+export default function Header({ user, onThemeToggle, cartCount, onLogout, onLoginClick, onToggleDummyStudentData }) {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const handleLogout = () => {
@@ -40,6 +40,13 @@ export default function Header({ user, onThemeToggle, cartCount, onLogout, onLog
         <button className="icon-btn cart-btn" aria-label="Open cart">
           <svg viewBox="0 0 24 24"><path d="M6 6h15l-2 8H8L6 3H3"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
           <span id="cartCount">{cartCount}</span>
+        </button>
+        <button 
+          className="btn ghost" 
+          onClick={onToggleDummyStudentData}
+          aria-label="Toggle Dummy Data"
+        >
+          Dummy Data
         </button>
         {!user ? (
           <>
